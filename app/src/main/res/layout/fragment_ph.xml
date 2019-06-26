@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ajoe.agro.cropsfragment">
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="29dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/textView11"
+        android:layout_marginEnd="130dp"
+        android:text="pH value:"
+        android:textAppearance="@android:style/TextAppearance.WindowTitle"
+        android:textColor="@android:color/background_dark"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="130dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="31dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="68dp"
+        android:text="Moisture:"
+        android:textAppearance="@android:style/TextAppearance.WindowTitle"
+        android:textColor="@android:color/background_dark"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="15dp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="148dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/textView11"
+        android:text="Date and time"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="383dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="     FARM LAND MANAGEMENT"
+        android:textAppearance="@android:style/TextAppearance.WindowTitle"
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="25sp"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="273dp"
+        android:layout_height="32dp"
+        android:layout_above="@+id/motorstate"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="36dp"
+        android:text="Irrigation Control"
+        android:textAppearance="@android:style/TextAppearance.WindowTitle"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="25sp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="36dp" />
+
+    <Button
+        android:id="@+id/motoron"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView11"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="91dp"
+        android:text="Motor on"
+        android:layout_alignRight="@+id/textView11" />
+
+    <Button
+        android:id="@+id/motoroff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="81dp"
+        android:layout_marginStart="19dp"
+        android:text="Motor off"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:id="@+id/motorstate"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/motoron"
+        android:layout_toStartOf="@+id/textView11"
+        android:text=" Motor      State"
+        android:textSize="18sp"
+        android:layout_toLeftOf="@+id/textView11" />
+
+    <ListView
+        android:id="@+id/lview"
+        android:layout_width="360dp"
+        android:layout_height="173dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="117dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+</RelativeLayout>

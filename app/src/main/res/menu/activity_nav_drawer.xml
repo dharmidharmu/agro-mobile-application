@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_farmlandmanagement"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Farm Land Management" />
+        <item
+            android:id="@+id/nav_agriculturenews"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Agriculture News" />
+        <item
+            android:id="@+id/nav_weather"
+            android:icon="@drawable/cloud"
+            android:title="Weather" />
+        <item
+            android:id="@+id/nav_commodity"
+            android:icon="@drawable/ic_magnify_white_18dp"
+            android:title="Commodity Price" />
+        <item
+            android:id="@+id/nav_crops"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Crops Information" />
+        <item
+            android:id="@+id/nav_chat"
+            android:icon="@mipmap/app_logo"
+            android:title="Chat" />
+    </group>
+
+    <item android:title="More">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_rate"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Rate" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="@string/logout" />
+        </menu>
+    </item>
+
+</menu>

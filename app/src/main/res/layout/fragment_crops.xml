@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/sugar"
+        android:layout_width="122dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="66dp"
+        android:onClick="onClicksugar"
+        android:text="SUGARCANE" />
+
+    <Button
+        android:id="@+id/banana"
+        android:layout_width="127dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/sugar"
+        android:layout_marginEnd="48dp"
+        android:onClick="ban"
+        android:text="BANANA" />
+
+    <Button
+        android:id="@+id/wheat"
+        android:layout_width="117dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/sugar"
+        android:layout_marginTop="128dp"
+        android:onClick="onwheat"
+        android:text="WHEAT" />
+
+    <Button
+        android:id="@+id/beans"
+        android:layout_width="129dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/banana"
+        android:layout_alignTop="@+id/wheat"
+        android:onClick="onbeans"
+        android:text="BEANS" />
+
+    <Button
+        android:id="@+id/maize"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/sugar"
+        android:layout_marginTop="195dp"
+        android:onClick="onmaize"
+        android:text="MAIZE" />
+
+    <Button
+        android:id="@+id/palmoil"
+        android:layout_width="133dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/banana"
+        android:layout_alignTop="@+id/maize"
+        android:onClick="onpalmoil"
+        android:text="PALMOIL" />
+
+    <Button
+        android:id="@+id/nut"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/sugar"
+        android:layout_marginBottom="187dp"
+        android:onClick="onnut"
+        android:text="GROUNDNUT" />
+
+    <Button
+        android:id="@+id/nutoil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/banana"
+        android:layout_alignTop="@+id/nut"
+        android:onClick="onnutoil"
+        android:text="GROUNDNUT OIL" />
+
+    <Button
+        android:id="@+id/potato"
+        android:layout_width="116dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/sugar"
+        android:layout_marginBottom="104dp"
+        android:onClick="onpotato"
+        android:text="POTATO" />
+
+    <Button
+        android:id="@+id/mustard"
+        android:layout_width="129dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/banana"
+        android:layout_alignTop="@+id/potato"
+        android:onClick="onmustard"
+        android:text="MUSTARD OIL" />
+
+</RelativeLayout>
